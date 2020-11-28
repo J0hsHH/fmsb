@@ -28,7 +28,6 @@ class itsb:
      lib = self.driver.find_element_by_xpath('//*[@id="u_0_b"]')
      lib.click()   # it just clicks on the log in button (lib stands for log in box)
      sleep(2)
-
      cmb = self.driver.find_element_by_xpath('//*[@id="mount_0_0"]/div/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/span/div')
      cmb.click()   # clicks on the measseger button (cmd stands for chat messenger button)
      sleep(2)

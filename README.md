@@ -11,13 +11,12 @@ this bot while spam the facebook messenger chat with emojis.
 ## Installing
 
 - Requires python 3.7
- - download [chromedriver](https://chromedriver.chromium.org/downloads), unzip, move to `/usr/local/bin` (mac os / linux)
+ - download [geckodriver](https://github.com/mozilla/geckodriver/releases), unzip, move to `/usr/local/bin` (mac os / linux)
  - `pip3 install selenium` 
- tips: i use This version of ChromeDriver Chrome version 80
 ```
 cd Downloads
 cd fmsb-master
-python3 feide.py
+python3 fmsb.py
 ```
 
 ~~## Deployment~~
